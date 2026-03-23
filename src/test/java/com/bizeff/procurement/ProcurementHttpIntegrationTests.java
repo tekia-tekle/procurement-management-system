@@ -1372,7 +1372,7 @@ public class ProcurementHttpIntegrationTests {
         budgetOne.setBudgetId("BG104");
         budgetOne.setTotalBudget(BigDecimal.valueOf(40000.0));
         budgetOne.setStartDate(LocalDate.of(2025, 1, 1));
-        budgetOne.setEndDate(LocalDate.of(2025,10,31));
+        budgetOne.setEndDate(LocalDate.of(2026,10,31));
         budgetOne.setCurrency("USD");
         budgetOne.setTotalRemainingBudget(budgetOne.getTotalRemainingBudget());
         budgetOne.updateBudgetStatus();
