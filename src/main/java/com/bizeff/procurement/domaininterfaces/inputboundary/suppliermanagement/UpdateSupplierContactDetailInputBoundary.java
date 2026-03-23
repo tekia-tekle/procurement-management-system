@@ -1,0 +1,8 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.suppliermanagement;
+
+import com.bizeff.procurement.domaininterfaces.inputds.suppliermanagement.UpdateSupplierContactDetailInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.suppliermanagement.UpdateSupplierContactDetailedOutputDS;
+
+public interface UpdateSupplierContactDetailInputBoundary {
+    UpdateSupplierContactDetailedOutputDS updateSupplierDetails(UpdateSupplierContactDetailInputDS input);
+}

@@ -1,0 +1,7 @@
+package com.bizeff.procurement.domaininterfaces.outputboundary.supplierperformancetracking;
+
+import com.bizeff.procurement.domaininterfaces.outputds.supplierperformancetracking.ViewSupplierPerformanceMetricsOutputDS;
+
+public interface ViewSupplierPerformanceMerticsOutputBoundary {
+    void presentSupplierPerformanceMetrics(ViewSupplierPerformanceMetricsOutputDS supplierPerformanceMetricsOutputDS);
+}

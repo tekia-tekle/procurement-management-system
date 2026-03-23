@@ -1,0 +1,10 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.suppliermanagement;
+import com.bizeff.procurement.domaininterfaces.inputds.suppliermanagement.ViewSupplierPerformanceReportInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.suppliermanagement.ViewSupplierPerformanceReportOutputDS;
+
+import java.util.List;
+
+public interface ViewSupplierPerformanceReportInputBoundary {
+    List<ViewSupplierPerformanceReportOutputDS>viewSupplierPerformances(ViewSupplierPerformanceReportInputDS viewSupplierPerformanceReportInputDS);
+
+}

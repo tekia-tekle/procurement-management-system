@@ -1,0 +1,5 @@
+package com.bizeff.procurement.domaininterfaces.outputboundary.suppliermanagement;
+import com.bizeff.procurement.domaininterfaces.outputds.suppliermanagement.UpdateSupplierContactDetailedOutputDS;
+public interface UpdateSupplierContactDetailOutputBoundary {
+    void presentUpdatedSupplier(UpdateSupplierContactDetailedOutputDS updateSupplierContactDetailedOutputDS);
+}

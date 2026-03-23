@@ -1,0 +1,8 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.procurementreport;
+
+import com.bizeff.procurement.domaininterfaces.inputds.procurementReport.CreateCustomizedProcurementDashboardInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.procurementreport.CreateCustomizedProcurementDashboardOutputDS;
+
+public interface CreateCustomizedProcurementDashboardInputBoundary {
+    CreateCustomizedProcurementDashboardOutputDS createCustomizedProcurementDashboard(CreateCustomizedProcurementDashboardInputDS inputDS);
+}

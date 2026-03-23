@@ -1,0 +1,9 @@
+package com.bizeff.procurement.domaininterfaces.outputboundary.supplierperformancetracking;
+
+import com.bizeff.procurement.domaininterfaces.outputds.supplierperformancetracking.GenerateSupplierPerformanceReportOutputDS;
+
+import java.util.List;
+
+public interface GenerateSupplierPerformanceReportOutputBoundary {
+    void presentSupplierPerformanceReport(List<GenerateSupplierPerformanceReportOutputDS> supplierPerformanceReportOutputDSs);
+}

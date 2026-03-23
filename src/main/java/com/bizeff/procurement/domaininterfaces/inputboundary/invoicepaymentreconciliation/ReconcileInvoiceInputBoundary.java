@@ -1,0 +1,6 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.invoicepaymentreconciliation;
+import com.bizeff.procurement.domaininterfaces.inputds.invoicepaymentreconciliation.ReconcileInvoiceInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.invoicepaymentreconciliation.ReconclieInvoiceOutputDS;
+public interface ReconcileInvoiceInputBoundary {
+    ReconclieInvoiceOutputDS reconcileInvoice(ReconcileInvoiceInputDS input);
+}

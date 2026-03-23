@@ -1,0 +1,8 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.procurementreport;
+
+import com.bizeff.procurement.domaininterfaces.inputds.procurementReport.ExportProcurementDataInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.procurementreport.ExportedProcurementDataOutputDS;
+
+public interface ExportProcurementDataInputBoundary {
+    ExportedProcurementDataOutputDS exportProcurementData(ExportProcurementDataInputDS exportProcurementDataInputDS);
+}

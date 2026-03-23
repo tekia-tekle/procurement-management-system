@@ -1,0 +1,8 @@
+package com.bizeff.procurement.domaininterfaces.inputboundary.procurementreport;
+
+import com.bizeff.procurement.domaininterfaces.inputds.procurementReport.GenerateMonthlyApprovedPurchaseOrderReportInputDS;
+import com.bizeff.procurement.domaininterfaces.outputds.procurementreport.GenerateMonthlyApprovedPurchaseOrderReportOutPutDS;
+
+public interface GenerateMonthlyApprovedPurchaseOrderReportInputBoundary {
+    GenerateMonthlyApprovedPurchaseOrderReportOutPutDS generateMonthlyApprovedPurchaseOrderReport(GenerateMonthlyApprovedPurchaseOrderReportInputDS inputDS);
+}

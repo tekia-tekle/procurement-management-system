@@ -1,0 +1,7 @@
+package com.bizeff.procurement.domaininterfaces.outputboundary.procurementreport;
+
+import com.bizeff.procurement.domaininterfaces.outputds.procurementreport.CreateCustomizedProcurementDashboardOutputDS;
+
+public interface CreateCustomizedProcurementDashboardOutPutBoundary {
+    void presentCustomizedProcurementDashboard(CreateCustomizedProcurementDashboardOutputDS outputDS);
+}
